@@ -1,11 +1,11 @@
 #!/bin/bash
-# Add to account list to add multiple accounts.
+# To execute script do ./multiple_account_tx.sh account1 account2 account3
 # Script will create file with date+account name.
 # Edit After and Before to change date range.
 # If you have a lot of tx, you need to shorten the time between dates.
 
 API=https://api.eossweden.org/
-ACCOUNTS=(eosriobrazil eosswedenorg)
+ACCOUNTS=("$@")
 LIMIT=1000
 AFTER=2019-01-01
 BEFORE=2020-01-01
