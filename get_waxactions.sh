@@ -1,11 +1,11 @@
 #!/bin/bash
 # You can change the API if you want.
-# By adding a comment the output will go to that file, i.ex. "./get_transactions.sh filename"
+# By adding a comment the output will go to that file, i.ex. "./get_waxactions.sh filename"
 # You can easily edit the before and after dates
 # If you don't get enough transactions, you need to shorten the time between dates.
 
-API=https://api.eossweden.org/
-ACCOUNT=eosswedenorg
+API=https://api.waxsweden.org/
+ACCOUNT=waxwebmaster
 LIMIT=1000
 AFTER=2019-01-01
 BEFORE=2020-01-01
