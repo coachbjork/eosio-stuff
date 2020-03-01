@@ -5,7 +5,7 @@
 # If you have a lot of tx, you need to shorten the time between dates.
 
 API=https://api.eossweden.org/
-ACCOUNTS=(imcoachbjork eosswedenorg)
+ACCOUNTS=(eosriobrazil eosswedenorg)
 LIMIT=1000
 AFTER=2019-01-01
 BEFORE=2020-01-01
